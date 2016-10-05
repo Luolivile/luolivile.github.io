@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.skills {
+  background: rgb(151, 218, 228);
+  color: rgb(128, 127, 128);
+  font-size: 20px;
+  padding: 5px;
+  width: 500px;
+  position: relative;
+  top: 30px;
+  left: 400px;
+}
+.lucila {
+  background-color: rgb(247, 245, 165);
+  color: rgb(128, 127, 128);
+  padding: 5px;
+  width: 500px;
+  position: relative;
+  left: 400px;
+  top: 20px;
+
+}
+li {
+  display: block;
+  border-left: 4px solid rgb(248, 199, 208);
+}
