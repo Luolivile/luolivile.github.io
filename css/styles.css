@@ -3,15 +3,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.box1 {
+  position: relative;
+  left: 400px;
+}
 .skills {
   background: rgb(151, 218, 228);
   color: rgb(128, 127, 128);
   font-size: 20px;
-  padding: 5px;
+  padding: 10px;
   width: 500px;
   position: relative;
   top: 30px;
-  left: 400px;
 }
 .lucila {
   background-color: rgb(247, 245, 165);
@@ -19,9 +22,10 @@ body {
   padding: 5px;
   width: 500px;
   position: relative;
-  left: 400px;
   top: 20px;
-
+}
+li:first-child {
+  border-left: 4px solid rgb(151, 218, 228);
 }
 li {
   display: block;
