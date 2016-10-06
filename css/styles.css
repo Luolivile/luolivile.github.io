@@ -11,7 +11,7 @@ body {
   background: rgb(151, 218, 228);
   color: rgb(128, 127, 128);
   font-size: 20px;
-  padding: 10px;
+  box-sizing: border-box;
   width: 500px;
   position: relative;
   top: 30px;
@@ -19,8 +19,9 @@ body {
 .lucila {
   background-color: rgb(247, 245, 165);
   color: rgb(128, 127, 128);
-  padding: 5px;
+  box-sizing: border-box;
   width: 500px;
+  border-left: 4px solid rgb(151, 218, 228);
   position: relative;
   top: 20px;
 }
