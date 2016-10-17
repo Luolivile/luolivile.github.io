@@ -1,0 +1,80 @@
+html {
+  font-family: lato, sans-serif;
+}
+.main {
+  width: 720px;
+  padding: 54px;
+  border-left: 6px solid #dddddd;
+}
+.main img {
+  width: 100%;
+}
+header h1 {
+  color: #DD0000;
+  line-height: 1.5em;
+  font-size: 60px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+header h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: 300;
+}
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+nav ul{
+  padding: 0;
+}
+nav a {
+  color: #dddddd;
+  font-size: 25px;
+  font-weight: 300;
+}
+nav li a:hover {
+  color: black;
+}
+.post {
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #dddddd;
+}
+.post h1 {
+    color: #cccccc;
+    font-size: 30px;
+    font-weight: 300;
+}
+.post h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+.post p {
+  line-height: 1.5em;
+}
+.next a {
+  color: #DD0000;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.next {
+  float: right;
+}
+footer li {
+  display: inline-block;
+  border-right: 2px solid #dddddd;
+}
+footer ul {
+  padding: 0;
+}
+footer a{
+  color: #DD0000;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+footer li a:hover {
+  color: #aa0000;
+}
