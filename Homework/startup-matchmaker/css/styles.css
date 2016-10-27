@@ -1,4 +1,152 @@
-// FONT FAMILY HELPERS :)
-// font-family: 'Oswald', sans-serif;
-// font-family: 'Merriweather', serif;
-// font-family: 'Source Sans Pro', sans-serif;
+/*FONT FAMILY HELPERS :)*/
+/*font-family: 'Oswald', sans-serif;*/
+/*font-family: 'Merriweather', serif;*/
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+html, body {
+ font-family: 'Source Sans Pro', sans-serif;
+ margin: 0;
+ padding: 0;
+}
+
+header, .tagline, footer {
+ box-sizing: border-box;
+ line-height: 50px;
+ padding: 10px 30px;
+}
+
+header {
+ border-bottom: 3px solid yellow;
+ background-color: #000;
+}
+
+header h1 {
+ font-family: 'Merriweather', serif;
+ font-size: 30px;
+ color: rgb(255, 254, 0);
+ display: inline;
+ margin: 0;
+}
+
+nav {
+ float: right;
+}
+
+a, .module h2 {
+ font-family: 'Oswald', sans-serif;
+ text-decoration: none;
+}
+
+nav a {
+ color: #fff;
+ font-size: 20px;
+ display: inline-block;
+ margin-right: 10px;
+}
+
+.tagline {
+ font: italic 25px/50px 'Merriweather', serif;
+ background: rgb(198,198,198);
+ text-align: center;
+}
+
+.tagline span:first-of-type {
+ text-decoration: line-through;
+ color: rgb(153,154,155);
+}
+
+.tagline span:last-of-type {
+ border-bottom: 2px solid yellow;
+}
+
+.container {
+ background-image: url("../img/coworking.jpg");
+ background-size: cover;
+ background-position: center;
+}
+
+p {
+ font-size: 20px;
+ line-height: 1.5em;
+ margin: 0 0 2em 0;
+}
+
+.module {
+ background: rgba(235, 229, 229, 0.8);
+ min-width: 260px;
+ max-width: 320px;
+ float: right;
+ padding: 30px;
+ margin: 30px;
+ box-shadow: 0 2px 10px rgba(0,0,0,.8)
+}
+.module h2 {
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 25px;
+ font-weight: bolder;
+ margin: 0;
+}
+
+.module a {
+ color: #000;
+ font-size: 20px;
+ text-transform: uppercase;
+ text-align: center;
+ letter-spacing: 1px;
+ font-weight: bold;
+ background-color: rgb(255, 254, 0);
+ border-radius: 4px;
+ padding: 8px 30px;
+ display: block;
+ margin: 0 auto;
+ border-bottom: 2px solid rgb(175, 175, 175);
+}
+
+.features {
+ background: rgb(235, 229, 229);
+ clear: both;
+ padding: 20px;
+}
+
+.box {
+ width: calc(100%/3);
+ float: left;
+ padding: 30px;
+ box-sizing: border-box;
+ border-right: 1px solid rgb(175, 175, 175);
+}
+
+.box:last-child {
+ border-right: none;
+}
+
+.box h2 {
+ font-family: 'Merriweather', serif;
+ margin: 0;
+}
+
+.box a {
+ color: #000;
+ font-weight: bold;
+ background-color: rgb(198, 198, 198);
+ font-size: 20px;
+ text-transform: uppercase;
+ text-align: center;
+ border-radius: 4px;
+ display: block;
+ padding: 8px 30px;
+ margin: 0 auto;
+ border-bottom: 2px solid rgb(175, 175, 175);
+}
+
+footer {
+ background: #000;
+ box-sizing: border-box;
+ clear: both;
+ color: #fff;
+}
+.clearfix:after {
+ content: "";
+ display: table;
+ clear: both;
+}
