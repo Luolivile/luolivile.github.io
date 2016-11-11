@@ -1,0 +1,130 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  /*line-height: 0;*/
+  height: 0;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  line-height: 1.4em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+header {
+  width: 960px;
+  background-color: #033048;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+header h1{
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  float: left;
+}
+nav {
+  display: inline-block;
+  float: right;
+}
+nav a {
+  color: #f9e42e;
+  text-decoration: none;
+  font-weight: semi-bold;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f0efef;
+}
+.main {
+  max-width: 700px;
+  float: left;
+  margin-right: 20px;
+  padding: inherit;
+}
+.post {
+  border-bottom: 2px solid #606161;
+}
+.post h1 {
+  font-size: 40px;
+  line-height: 1.4em;
+  font-weight: semi-bold;
+  color: #033048;
+}
+.post img {
+  padding: 0 10px 10px 0;
+}
+p {
+  font-weight: light;
+  font-size: 24px;
+  color: #606161;
+  padding: z10px;
+}
+.post p::first-letter {
+   font-weight: bold;
+   font-size: 72px;
+   -webkit-initial-letter: 3;
+}
+a.more {
+  text-align: right;
+  text-decoration: none;
+  color: #033048;
+  font-weight: semi-bold;
+}
+.sidebar {
+  float: right;
+}
+.module h2 {
+  font-weight: Extra-bold;
+  font-size: 32px;
+  color: #033048;
+}
+.module a {
+  text-decoration: none;
+  color: #606161;
+  font-size: 24px;
+}
+.module li {
+  list-style: none;
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
