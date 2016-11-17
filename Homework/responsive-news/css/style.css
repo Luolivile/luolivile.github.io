@@ -113,6 +113,9 @@ p {
   #container {
 		width: 100%;
 	}
+  p, h1, h2, h3 {
+    text-align: center;
+  }
 }
 @media (max-width: 480px) {
 nav a {
