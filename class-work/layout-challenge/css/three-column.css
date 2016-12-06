@@ -1,0 +1,42 @@
+.wrapper {
+  max-width: 1600px;
+  min-width: 320px;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+header {
+  height:200px;
+  background-color: green;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+.main {
+  height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+}
+
+.aside1, .aside3 {
+  flex: 1 1 0px;
+  background-color: blue;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.aside2 {
+  flex: 2 2 0px;
+  margin: 0 20px 20px 20px;
+  background-color: red;
+  height: 100%;
+  margin-top: 20px
+}
+
+footer{
+  background-color:  orange;
+  height: 200px;
+}

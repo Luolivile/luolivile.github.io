@@ -8,13 +8,23 @@
 <body>
 	<header class="clearfix">
 		<h1>Startup Matchmaker</h1>
-			<nav>
+			<nav id="large-nav">
 				<a href="#">Developers</a>
 				<a href="#">Designers</a>
 				<a href="#">How it Works</a>
 				<a href="#">Our Team</a>
 				<a href="#">Blog</a>
 			</nav>
+			<div id="burger">
+				<img src="img/hamburger-icon.png" />
+       <div id="small-nav">
+				 <a href="#">Developers</a>
+				 <a href="#">Designers</a>
+				 <a href="#">How it Works</a>
+				 <a href="#">Our Team</a>
+				 <a href="#">Blog</a>
+       </div>
+			 </div>
 	</header>
 
 		<div class="tagline">
@@ -55,5 +65,25 @@
 		<footer>
 			2013 Startup Matchmaker, made in NY
 		</footer>
+
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js">
+	 </script>
+	 <script type="text/javascript">
+	 $(document).ready(function () {
+
+		 $(window).resize(function () {
+			 var width = $(window).width()
+
+			 if (width >= '800px') {
+				 $('#small-nav').hide();
+			 }
+			 console.log($(window).width())
+		 })
+
+		 $('#burger').click(function () {
+				$('#small-nav').slideToggle(10);
+		 })
+	 })
+	 </script>
 </body>
 </html>

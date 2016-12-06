@@ -1,22 +1,35 @@
 .wrapper {
- width: 100%;
+ max-width: 1600px;
+ min-width: 320px;
  height: 100%;
 }
-
-.main {
+header {
   background-color: green;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  height: 400px;
 }
 
 .asideone {
   background-color: black;
-  width: 60%;
+  flex: 1 1 0px;
+  height: 100%;
+  margin-right: 20px;
 
 }
 .asidetwo {
   background-color: orange;
-  width: 35%;
+  flex: 2 2 0px;
+  height: 100%;
 }
 footer {
   background-color: red;
   height: 200px;
+  margin-top: 20px;
 }

@@ -150,3 +150,48 @@ footer {
  display: table;
  clear: both;
 }
+
+#small-nav {
+  display: none;
+}
+
+#burger {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .box {
+    float: none;
+    width: 100%;
+    border: none;
+  }
+  header h1 {
+    float: right;
+  }
+  #large-nav {
+    display: none;
+  }
+
+  #burger {
+    display: block;
+    float: left;
+    margin-top: 10px;
+  }
+
+  #small-nav a {
+		display: block;
+		text-decoration: none;
+		color: black;
+		padding: 10px;
+    background-color: rgb(198, 198, 198);
+	}
+
+  #small-nav a:hover {
+    background: rgb(175, 175, 175)
+  }
+
+  #small-nav {
+    position: absolute;
+  }
+
+}
